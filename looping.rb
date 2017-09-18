@@ -1,5 +1,12 @@
 def looping
-	#your code here
+  counter = 0
+	loop do
+	  puts "Wingardium Leviosa"
+    counter += 1
+    if counter >=100
+      break
+	end
+end
 end
 
-#call your method here
+looping
